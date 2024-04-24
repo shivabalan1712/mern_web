@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" step="0.01" placeholder="Enter amount">
+    <br>
+    <label for="sourceCurrency">From:</label>
+    <select id="sourceCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <!-- Add more currencies as needed -->
+    </select>
+    <br>
+    <label for="targetCurrency">To:</label>
+    <select id="targetCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <!-- Add more currencies as needed -->
+    </select>
+    <br>
+    <button id="convertBtn">Convert</button>
+    <br>
+    <div id="result"></div>
+
+    <script src="./index.js"></script> <!-- Replace with the path to your TypeScript compiled JavaScript file -->
+</body>
+</html>
