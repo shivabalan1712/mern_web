@@ -1,9 +1,9 @@
 function add(a:number,b:number):number;
 function add(a:string,b:string):string;
-function add(a:number|string,b:number|string):string|number
+function add(a:number|string,b:number|string):number|string
 {
-    let r=(a as number)+(b as number);
-    return r ;
+    return a+b ;
 }
 
 console.log(add(1,2));
+console.log("Ram","prasath");
