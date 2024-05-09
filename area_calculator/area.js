@@ -1,17 +1,13 @@
 "use strict";
-// Function to calculate the area of a rectangle
 function calculateRectangleArea(length, width) {
     return length * width;
 }
-// Function to calculate the area of a circle
 function calculateCircleArea(radius) {
     return Math.PI * radius * radius;
 }
-// Function to calculate the area of a triangle
 function calculateTriangleArea(base, height) {
     return 0.5 * base * height;
 }
-// Main function to handle user input and calculate area
 function calculateArea(shape) {
     switch (shape.toLowerCase()) {
         case "rectangle":
@@ -47,6 +43,5 @@ function calculateArea(shape) {
             console.log("Invalid shape. Please choose rectangle, circle, or triangle.");
     }
 }
-// Test the program
 const selectedShape = prompt("Enter the shape (rectangle, circle, or triangle): ");
 calculateArea(selectedShape);
