@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Processing</title>
+    <script src="server.js"></script>
+</head>
+<body>
+    <form action=""  >
+        Name: <input type="text" id="UserName"><br><br>
+        Order No:<input type="text" id="OrderNo"><br><br>
+        <div id="items">
+        Item: <input type="text" class="items" id="">
+        Cost: <input type="number" class="cost" id="">
+        </div>
+        <br>  
+        <input type="button" value="Add more" onclick="addMore()"><br><br>
+        Address: <br><textarea name="addr" id="addr" cols="30" rows="10"></textarea><br>
+        <input type="button" value="Place Order" onclick="placeOrder()"><br><br>
+    </form>
+    <input type="button" value="Update Order" onclick="ToUpdate()">
+    <input type="button" value="Invoice" onclick="ToInvoice()">
+    <div id="display"></div>
+</body>
+</html>
