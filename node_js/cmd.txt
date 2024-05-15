@@ -1,0 +1,9 @@
+npm i
+npm init ----verify for two files package-lock and package
+
+npm i body-parser
+npm i express
+npm i cors
+
+------to run 
+node filename.js
