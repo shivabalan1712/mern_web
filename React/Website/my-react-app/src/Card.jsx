@@ -8,8 +8,7 @@ export default function Card() {
         <img className ="card-image" src ={proPic} alt="Profile Picture"></img>
         <h2 className="card-title">ShivX</h2>
         <p className ="card-text">Dual Degree Graduate</p>
-
-    </div>
+      </div>
     </>
   )
 }
